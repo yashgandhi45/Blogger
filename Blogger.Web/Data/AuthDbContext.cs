@@ -53,7 +53,7 @@ namespace Blogger.Web.Data
             };
             superAdminUser.PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(superAdminUser,"Superadmin@123");
             builder.Entity<IdentityUser>().HasData(superAdminUser);
-            //Add all roles to SuperAdminUser
+            //Add all roles to SuperAdminUser;
         }
     }
 }
