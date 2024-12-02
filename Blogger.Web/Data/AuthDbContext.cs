@@ -8,7 +8,6 @@ namespace Blogger.Web.Data
     {
         public AuthDbContext(DbContextOptions options):base(options)
         {
-            
         }
         protected override void OnModelCreating(ModelBuilder builder)
         {
